@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "da21108e-763c-4664-9897-c9de1ca0d72d")
+	(paper "B")
+	(lib_symbols)
+	(sheet
+		(at 172.72 27.94)
+		(size 55.88 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "288af464-7719-46c5-b3e4-da10327cc7d3")
+		(property "Sheetname" "Analog"
+			(at 172.72 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog.kicad_sch"
+			(at 172.72 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "boltzmann_constant_amp"
+				(path "/da21108e-763c-4664-9897-c9de1ca0d72d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 26.67)
+		(size 57.15 62.23)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ecc8c3ef-11c7-4818-8965-eff3405175ae")
+		(property "Sheetname" "Power"
+			(at 63.5 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 63.5 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "boltzmann_constant_amp"
+				(path "/da21108e-763c-4664-9897-c9de1ca0d72d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
